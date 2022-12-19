@@ -29,7 +29,7 @@ namespace adonisface
 
             if(Class1.X1(a, b, c) == Class1.X2(a, b, c))
             {
-                label5.Text = "answer: " + $"x = {Class1.X1(a, b, c)};
+                label5.Text = "answer: " + $"x = {Class1.X1(a, b, c)}";
             }
             else
                 label5.Text = "answer: " + $"x1 = {Class1.X1(a, b, c)}, x2 = {Class1.X2(a, b, c)}";
